@@ -1,0 +1,2 @@
+tester	sample@email.com	5f4dcc3b5aa765d61d8327deb882cf99	test	tester
+testy	another@email.com	5f4dcc3b5aa765d61d8327deb882cf99	test2	testy

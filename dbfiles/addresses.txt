@@ -1,0 +1,3 @@
+	tester	123 main st		loveland	co	80537	TRUE	FALSE
+	tester	135 oak ave		fort collins	co	80525	FALSE	TRUE
+	testy	255 starway dr		fort collins	co	80525	TRUE	TRUE

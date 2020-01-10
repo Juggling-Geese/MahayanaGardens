@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link href="m2a1.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+		
+		function onHover(){
+			$("#aboutus").attr(src, 'images/onAboutUs.jpg');
+			
+		}
+		
+		function offHover(){
+			$("#aboutus").attr(src, 'images/aboutus.jpg');
+		}
+		
+	</script>
+	
+	<meta charset="utf-8">
+<title>Home | Mahayana Gardens</title>
+
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="store.html">Shop</a></li>
+			<li><a href="resources.html">Additional Resources</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<div id="header-main">
+		
+		<div id="medialinks">
+			<a href="#"><img src="../images/facebook.png" alt="Visit out Facebook page"></a>
+			<a href="#"><img src="../images/instagram.png" alt="Visit our Instagram page"></a>
+			<a href="#"><img src="../images/pinterest.png" alt="Visit our Pinterest Board"></a>
+		</div>
+		<div id="tagline-main">We help build healthy lifestyles.</div>
+		<div id="company-main">Mahayana Gardens</div>
+		
+	</div>
+
+
+	<main>
+		<div class="box">
+			<figure id="left">
+				<a href="about.html">
+					<!-- <img src="images/responsible-hands-thumb.jpg" alt="Multigenerational Hands Holding Dirt with Sprout"> -->
+					<img id="aboutus" onMouseOver="onHover();" onMouseOut="offHover();"  alt="Multigenerational Hands Holding Dirt with Sprout">
+				</a>
+				<figcaption>Mahayana Gardens is committed to healthy and sustainable gardening and wellness. We work hard to make sure that all of the plants we sell are chemically free, non-GMO, and grown organically.</figcaption></figure>
+			<figure>
+				<a href="store.html"><img src="../images/child-gardening.jpg" alt="A young child working in the garden"></a>
+				<figcaption>We specialize in herbs of all kinds, but also offer a selection of vegetable starts such as tomatoes, peppers, eggplants, among others.</figcaption>
+			</figure>
+			<figure>
+				<a href="blog.html"><img src="../images/jars-of-herbs.jpg" alt="A collection of jars full of herbs"></a>
+				<figcaption>We strive to make our site a resource for individuals and families interested in including herbs in their wellness routines, to increase the health of their gardens. </figcaption>
+			</figure>		
+			<figure>
+				<a href="https://ccc-appview.edupe.io/~3060/MahayanaLiving"><img src="../images/logo.jpg" alt="Mahayana Living - Logo for our Sister Site"></a>
+				<figcaption>We parter with our sister site, <a href="#">Mahayana Living</a>, to increase awareness of herbs in all their forms as a natural supplement and replacement for many standard modern rememdies.	</figcaption>	
+			</figure>
+			<figure>
+				<a href="blog.html"><img src="../images/fresh-herbs-mortar-pestle.jpg" alt="Fresh Herbs with a Mortar and Pestle - Click to view blog"></a>
+				<figcaption>Visit <a href="blog.html">our blog</a> that includes information on different herbs, companion planting, and recipes for both food and wellness.</figcaption>
+			</figure>
+			<figure>
+				<a href="resources.html"><img src="../images/gardening-resources.jpg" alt="Gardening tools and supplies"></a>
+				<figcaption>You can also check out our <a href="resources.html">Additional Resources</a> to connect with other great resources around the web! </figcaption>
+			</figure>
+		</div>
+	</main>
+
+	<footer>
+		<ul id="nav">
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="store.html">Shop</a></li>
+			<li><a href="resources.html">Additional Resources</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	
+		<div id="contactinfo">
+			<blockquote>
+			<span style="font-weight: bold; font-size: 1.2em;">Mahayana Gardens</span><br>
+			123 Main St.<br>
+			Loveland, CO 80537<br>
+			<a href="mailto:mahayanagardens@zendeavors.net">mahayanagardens@zendeavors.net</a>
+			</blockquote>
+		</div>
+		<div id="copyright">Copyright &copy;2019 by Mahayana Gardens </div>
+			<div id="updated">Last Updated - 
+			<script>
+				document.write(document.lastModified);
+			</script>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+FAIRYBSK	Fairy Garden Basket	29.99	3
+FAIRYSMALL	"Fairy Garden, Small"	24.99	2
+FAIRYLARGE	"Fairy Garden, Large"	39.99	2
+FLOWERBSK	Hanging Flower Basket	24.99	5
+STRAWSTART	Strawberry Starts	2.99	11
+LETTSTART	Lettuce Starts	1.99	25
+PARSSTART	Parsley Starts	1.99	20
+OREGSTART	Oregano Starts	2.99	12
+ARUGSTART	Arugala Starts	1.99	25
